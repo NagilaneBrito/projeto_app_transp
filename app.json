@@ -23,6 +23,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "cli": {
+      "requireCommit": false,
+      "disableVersionCheck": true
     }
   }
 }
