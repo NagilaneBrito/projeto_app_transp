@@ -13,7 +13,7 @@ const center = {
 
 export default function MapWeb() {
   return (
-    <LoadScript googleMapsApiKey="">
+    <LoadScript googleMapsApiKey="CHAVE_KEY">
       <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={12}>
         <Marker position={center} />
       </GoogleMap>
